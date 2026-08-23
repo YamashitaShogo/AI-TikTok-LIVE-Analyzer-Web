@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI TikTok LIVE Analyzer</title>
+    <meta
+        name="description"
+        content="TikTok LIVEの配信映像をAIが分析し、改善ポイントを分かりやすく提案します。"
+    >
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container nav">
+            <div class="logo">
+                AI TikTok LIVE Analyzer
+            </div>
+
+            <nav>
+                <a href="#features">機能</a>
+                <a href="#how">使い方</a>
+                <a href="#pricing">料金</a>
+                <a href="#faq">FAQ</a>
+                <a href="#download">ダウンロード</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+
+                <div class="hero-content">
+                    <p class="badge">TikTok LIVE × AI</p>
+
+                    <h1>
+                        配信をAIで分析。<br>
+                        改善点をもっと分かりやすく。
+                    </h1>
+
+                    <p class="hero-text">
+                        OBSと連携して直前の配信映像を取得。
+                        複数フレームを時系列でAIが分析し、
+                        構図・明るさ・視認性などを採点します。
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a class="button primary" href="#download">
+                            ベータ版を試す
+                        </a>
+
+                        <a class="button secondary" href="#features">
+                            機能を見る
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-preview">
+                    <div class="preview-window">
+
+                        <div class="preview-header">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                            <p>AI TikTok LIVE Analyzer</p>
+                        </div>
+
+                        <img
+                            src="assets/images/app-preview.png"
+                            alt="AI TikTok LIVE Analyzerの分析画面"
+                        >
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="analysis-example" class="section analysis-example">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="section-label">AI ANALYSIS</p>
+                    <h2>実際の分析イメージ</h2>
+                    <p>
+                        Replay Bufferから取得した複数フレームをAIが時系列で確認し、
+                        配信画面をスコア化して改善ポイントを提案します。
+                    </p>
+                </div>
+
+                <div class="analysis-grid">
+
+                    <div class="score-card">
+                        <p class="score-label">総合スコア</p>
+
+                        <div class="score-number">
+                            83
+                            <span>/100</span>
+                        </div>
+
+                        <div class="score-list">
+                            <div>
+                                <span>構図・被写体配置</span>
+                                <strong>16/20</strong>
+                            </div>
+
+                            <div>
+                                <span>明るさ・色・視認性</span>
+                                <strong>18/20</strong>
+                            </div>
+
+                            <div>
+                                <span>情報量・整理</span>
+                                <strong>18/20</strong>
+                            </div>
+
+                            <div>
+                                <span>時系列の安定性</span>
+                                <strong>16/20</strong>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="advice-card">
+                        <p class="advice-label">
+                            AIからの改善提案
+                        </p>
+
+                        <div class="advice-item">
+                            <span>01</span>
+
+                            <div>
+                                <h3>構図を調整</h3>
+                                <p>
+                                    頭上に適度な余白を作り、
+                                    被写体が見やすい位置を維持します。
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="advice-item">
+                            <span>02</span>
+
+                            <div>
+                                <h3>背景を整理</h3>
+                                <p>
+                                    配信に必要な要素を残し、
+                                    視線が散らない画面構成を作ります。
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="advice-item">
+                            <span>03</span>
+
+                            <div>
+                                <h3>照明を最適化</h3>
+                                <p>
+                                    被写体と背景の明るさを整え、
+                                    見やすい配信画面を維持します。
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="section">
+            <div class="container">
+                <h2>主な機能</h2>
+
+                <div class="cards">
+
+                    <article class="card">
+                        <h3>🎬 Replay Buffer分析</h3>
+
+                        <p>
+                            OBSのReplay Bufferから直前の配信映像を自動取得。
+                            5秒ごとにフレームを抽出して分析します。
+                        </p>
+                    </article>
+
+                    <article class="card">
+                        <h3>🤖 時系列AI分析</h3>
+
+                        <p>
+                            0秒・5秒・10秒・15秒…と複数の画面を比較。
+                            配信画面の時間変化までAIが確認します。
+                        </p>
+                    </article>
+
+                    <article class="card">
+                        <h3>📊 スコア＆改善提案</h3>
+
+                        <p>
+                            構図・明るさ・視認性・情報量などを評価し、
+                            具体的な改善ポイントを提示します。
+                        </p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="how" class="section alt">
+            <div class="container">
+                <h2>使い方</h2>
+
+                <div class="steps">
+                    <div class="step">
+                        <span>1</span>
+                        <p>OBSへ接続</p>
+                    </div>
+
+                    <div class="step">
+                        <span>2</span>
+                        <p>AI分析開始</p>
+                    </div>
+
+                    <div class="step">
+                        <span>3</span>
+                        <p>Replay映像を取得</p>
+                    </div>
+
+                    <div class="step">
+                        <span>4</span>
+                        <p>AIが時系列分析</p>
+                    </div>
+
+                    <div class="step">
+                        <span>5</span>
+                        <p>改善結果を確認</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="download" class="section">
+            <div class="container download">
+                <section id="pricing" class="section pricing-section">
+                    <div class="container">
+
+                        <div class="section-heading">
+                            <p class="section-label">PRICING</p>
+                            <h2>料金プラン</h2>
+                            <p>
+                                現在はWindows向けベータ版を開発中です。
+                                ベータ期間中は無料で利用できる予定です。
+                            </p>
+                        </div>
+
+                        <div class="pricing-grid">
+
+                            <article class="pricing-card featured">
+                                <p class="plan-badge">BETA</p>
+
+                                <h3>Beta Plan</h3>
+
+                                <div class="price">
+                                    ¥0
+                                    <span>/ ベータ期間</span>
+                                </div>
+
+                                <ul>
+                                    <li>OBS連携</li>
+                                    <li>Replay Buffer分析</li>
+                                    <li>5秒間隔の時系列分析</li>
+                                    <li>AIスコア・改善提案</li>
+                                    <li>分析履歴</li>
+                                </ul>
+
+                                <a href="#download" class="button primary plan-button">
+                                    Beta版を見る
+                                </a>
+                            </article>
+
+                            <article class="pricing-card">
+                                <p class="plan-badge secondary-badge">
+                                    COMING SOON
+                                </p>
+
+                                <h3>Pro Plan</h3>
+
+                                <div class="price">
+                                    未定
+                                </div>
+
+                                <ul>
+                                    <li>より高度な配信分析</li>
+                                    <li>自動分析機能</li>
+                                    <li>分析データの蓄積</li>
+                                    <li>追加機能を予定</li>
+                                </ul>
+
+                                <button class="button secondary plan-button" disabled>
+                                    Coming Soon
+                                </button>
+                            </article>
+
+                        </div>
+
+                    </div>
+                </section>
+                <section id="faq" class="section faq-section">
+                    <div class="container">
+
+                        <div class="section-heading">
+                            <p class="section-label">FAQ</p>
+                            <h2>よくある質問</h2>
+                            <p>
+                                AI TikTok LIVE Analyzerについて、
+                                よくある質問をまとめています。
+                            </p>
+                        </div>
+
+                        <div class="faq-list">
+
+                            <details class="faq-item">
+                                <summary>
+                                    OBSは必要ですか？
+                                </summary>
+
+                                <p>
+                                    はい。現在のベータ版ではOBS Studioと連携し、
+                                    Replay Bufferから直前の配信映像を取得して分析します。
+                                </p>
+                            </details>
+
+                            <details class="faq-item">
+                                <summary>
+                                    どのOSに対応していますか？
+                                </summary>
+
+                                <p>
+                                    現在はWindows版を開発しています。
+                                    macOS版などについては今後検討予定です。
+                                </p>
+                            </details>
+
+                            <details class="faq-item">
+                                <summary>
+                                    AIは配信の何を分析しますか？
+                                </summary>
+
+                                <p>
+                                    Replay動画から一定間隔で複数のフレームを抽出し、
+                                    構図・明るさ・視認性・画面内の情報量・
+                                    時系列での変化などを分析します。
+                                </p>
+                            </details>
+
+                            <details class="faq-item">
+                                <summary>
+                                    AIは音声も分析しますか？
+                                </summary>
+
+                                <p>
+                                    現在のバージョンでは映像フレームを中心に分析しており、
+                                    会話内容・声量・BGM・音質などは分析対象ではありません。
+                                </p>
+                            </details>
+
+                            <details class="faq-item">
+                                <summary>
+                                    配信映像はどのように処理されますか？
+                                </summary>
+
+                                <p>
+                                    OBSのReplay Bufferから動画を取得し、
+                                    必要なフレームを端末上で抽出します。
+                                    AI分析時には分析に必要な画像データを
+                                    AI分析サーバーへ送信します。
+                                </p>
+                            </details>
+
+                            <details class="faq-item">
+                                <summary>
+                                    TikTokのアカウント連携は必要ですか？
+                                </summary>
+
+                                <p>
+                                    現在の分析機能はOBSの映像を利用するため、
+                                    AI TikTok LIVE Analyzerへ
+                                    TikTokアカウントを直接連携する必要はありません。
+                                </p>
+                            </details>
+
+                            <details class="faq-item">
+                                <summary>
+                                    無料で使えますか？
+                                </summary>
+
+                                <p>
+                                    現在はベータ版を開発中です。
+                                    ベータ期間中は無料で提供する予定です。
+                                    正式版の料金については今後発表します。
+                                </p>
+                            </details>
+
+                        </div>
+                    </div>
+                </section>
+                <h2>Windows Beta</h2>
+
+                <p>
+                    AI TikTok LIVE Analyzerは現在ベータ版を開発中です。
+                </p>
+
+                <button class="button primary" disabled>
+                    Coming Soon
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+
+            <div class="footer-brand">
+                <h3>AI TikTok LIVE Analyzer</h3>
+
+                <p>
+                    TikTok LIVEの配信映像をAIで分析し、
+                    配信改善をサポートするWindowsアプリです。
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <h4>サービス</h4>
+
+                <a href="#features">機能</a>
+                <a href="#how">使い方</a>
+                <a href="#pricing">料金</a>
+                <a href="#faq">FAQ</a>
+            </div>
+
+            <div class="footer-links">
+                <h4>サポート</h4>
+
+                <a href="privacy.html">
+                    プライバシーポリシー
+                </a>
+
+                <a href="terms.html">
+                    利用規約
+                </a>
+
+                <a href="contact.html">
+                    お問い合わせ
+                </a>
+            </div>
+
+        </div>
+
+        <div class="container footer-bottom">
+            <p>
+                © 2026 AI TikTok LIVE Analyzer
+            </p>
+
+            <p>
+                TikTokおよびOBS Studioとは
+                独立したサービスです。
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
