@@ -844,28 +844,37 @@ footer {
 }
 
 .download-info {
-    margin-top: 24px;
-    padding: 20px;
-
-    background: #15151d;
-    border: 1px solid #292933;
-    border-radius: 14px;
-
+    margin-top: 18px;
+    text-align: center;
     color: #b6b6c1;
-    font-size: 14px;
+    font-size: 13px;
 }
 
-.download-info p {
-    margin-bottom: 8px;
+.download-meta {
+    margin: 0;
+    color: #b6b6c1;
 }
 
-.download-info p:last-child {
-    margin-bottom: 0;
+.download-details {
+    margin-top: 10px;
 }
 
-.download-info code {
+.download-details summary {
+    cursor: pointer;
+    color: #9e94ff;
+    font-size: 13px;
+}
+
+.download-details p {
+    margin: 8px 0 0;
+}
+
+.download-details code {
+    display: block;
+    margin-top: 6px;
     word-break: break-all;
     color: #9e94ff;
+    font-size: 11px;
 }
 
 @media (max-width: 800px) {
