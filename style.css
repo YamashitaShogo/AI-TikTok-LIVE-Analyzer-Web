@@ -877,6 +877,109 @@ footer {
     font-size: 11px;
 }
 
+.install-page {
+    max-width: 900px;
+}
+
+.install-hero {
+    padding: 100px 0 70px;
+    text-align: center;
+}
+
+.install-hero .eyebrow {
+    margin-bottom: 14px;
+    color: #8f83ff;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+}
+
+.install-hero h1 {
+    margin-bottom: 18px;
+    font-size: clamp(40px, 6vw, 64px);
+}
+
+.install-hero > p:last-child {
+    color: #a9a9b3;
+    line-height: 1.8;
+}
+
+.install-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.install-step {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    gap: 20px;
+
+    padding: 28px;
+
+    background: #15151d;
+    border: 1px solid #292933;
+    border-radius: 18px;
+}
+
+.install-step > span {
+    color: #8f83ff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.install-step h2 {
+    margin: 0 0 10px;
+    font-size: 22px;
+}
+
+.install-step p {
+    margin: 0 0 16px;
+    color: #b6b6c1;
+    line-height: 1.7;
+}
+
+.install-note {
+    margin-top: 12px !important;
+    font-size: 13px;
+}
+
+.install-help {
+    margin: 70px 0 100px;
+    padding: 36px;
+
+    text-align: center;
+
+    background: #15151d;
+    border: 1px solid #292933;
+    border-radius: 18px;
+}
+
+.install-help h2 {
+    margin-bottom: 12px;
+}
+
+.install-help p {
+    margin-bottom: 22px;
+    color: #b6b6c1;
+}
+
+@media (max-width: 700px) {
+    .install-hero {
+        padding: 70px 0 50px;
+    }
+
+    .install-step {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        padding: 22px;
+    }
+
+    .install-help {
+        padding: 28px 20px;
+    }
+}
+
 @media (max-width: 800px) {
     nav {
         display: none;
