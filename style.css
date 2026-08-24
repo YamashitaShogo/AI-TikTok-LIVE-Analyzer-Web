@@ -843,6 +843,31 @@ footer {
     cursor: not-allowed;
 }
 
+.download-info {
+    margin-top: 24px;
+    padding: 20px;
+
+    background: #15151d;
+    border: 1px solid #292933;
+    border-radius: 14px;
+
+    color: #b6b6c1;
+    font-size: 14px;
+}
+
+.download-info p {
+    margin-bottom: 8px;
+}
+
+.download-info p:last-child {
+    margin-bottom: 0;
+}
+
+.download-info code {
+    word-break: break-all;
+    color: #9e94ff;
+}
+
 @media (max-width: 800px) {
     nav {
         display: none;
