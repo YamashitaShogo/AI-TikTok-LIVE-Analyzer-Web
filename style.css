@@ -980,6 +980,13 @@ footer {
     }
 }
 
+.store-status {
+    margin-top: 14px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    opacity: 0.9;
+}
+
 @media (max-width: 800px) {
     nav {
         display: none;
