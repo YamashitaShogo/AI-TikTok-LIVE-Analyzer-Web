@@ -987,6 +987,12 @@ footer {
     opacity: 0.9;
 }
 
+.license-note {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    opacity: 0.75;
+}
+
 @media (max-width: 800px) {
     nav {
         display: none;
