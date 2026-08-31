@@ -1,4 +1,4 @@
-console.log("AI TikTok LIVE Analyzer Web");
+console.log("Livemetry Pulse Web");
 
 const contactForm = document.getElementById("contact-form");
 const contactMessage = document.getElementById("contact-message");
