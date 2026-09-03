@@ -2278,3 +2278,61 @@ nav a:hover {
         padding: 26px;
     }
 }
+/* ===== LEGACY PURPLE REMOVAL ===== */
+
+/* 共通の主要ボタン */
+.primary {
+    color: #07100B;
+    background: #B8FF5A;
+}
+
+.primary:hover {
+    color: #07100B;
+    background: #D2FF91;
+}
+
+/* インストールページ */
+.install-hero .eyebrow,
+.install-step > span {
+    color: #B8FF5A;
+}
+
+.install-step:nth-child(3) > span,
+.install-step:nth-child(4) > span {
+    color: #58A6FF;
+}
+
+.install-step:last-child > span {
+    color: #FE2C55;
+}
+
+/* ファイル情報と本文リンク */
+.download-details summary,
+.download-details code,
+.legal-section a,
+.privacy-check a {
+    color: #58A6FF;
+}
+
+.download-details summary:hover,
+.legal-section a:hover,
+.privacy-check a:hover {
+    color: #8FC4FF;
+}
+
+/* お問い合わせフォーム */
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: #58A6FF;
+    box-shadow: 0 0 0 3px rgba(88, 166, 255, 0.1);
+}
+
+.contact-submit {
+    color: #07100B;
+    background: #B8FF5A;
+}
+
+.contact-submit:hover {
+    background: #D2FF91;
+}
