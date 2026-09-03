@@ -54,9 +54,14 @@
 <body>
     <header class="header">
         <div class="container nav">
-            <div class="logo">
-                Livemetry Pulse
-            </div>
+            <a class="logo" href="index.html" aria-label="Livemetry Pulse ホーム">
+                <span class="logo-mark" aria-hidden="true">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </span>
+                <span class="logo-text">Livemetry Pulse</span>
+            </a>
 
             <nav>
                 <a href="#features">機能</a>
@@ -214,12 +219,16 @@
 
         <section id="features" class="section">
             <div class="container">
-                <h2>主な機能</h2>
+                <div class="feature-heading">
+                    <p class="section-label">CORE MODULES</p>
+                    <h2>配信改善を支える3つの分析機能</h2>
+                    <p>映像の取得からAI分析、改善提案までをひとつの流れで確認できます。</p>
+                </div>
 
                 <div class="cards">
 
                     <article class="card">
-                        <h3>🎬 Replay Buffer分析</h3>
+                        <h3><span class="feature-code">01 / REPLAY</span>Replay Buffer分析</h3>
 
                         <p>
                             OBSのReplay Bufferから直前の配信映像を自動取得。
@@ -228,7 +237,7 @@
                     </article>
 
                     <article class="card">
-                        <h3>🤖 時系列AI分析</h3>
+                        <h3><span class="feature-code">02 / AI VISION</span>時系列AI分析</h3>
 
                         <p>
                             0秒・5秒・10秒・15秒…と複数の画面を比較。
@@ -237,7 +246,7 @@
                     </article>
 
                     <article class="card">
-                        <h3>📊 スコア＆改善提案</h3>
+                        <h3><span class="feature-code">03 / INSIGHT</span>スコア＆改善提案</h3>
 
                         <p>
                             構図・明るさ・視認性・情報量などを評価し、
@@ -251,7 +260,11 @@
 
         <section id="how" class="section alt">
             <div class="container">
-                <h2>使い方</h2>
+                <div class="how-intro">
+                    <p class="section-label">HOW IT WORKS</p>
+                    <h2>OBS接続から、改善確認まで。</h2>
+                    <p>配信中の操作を止めず、5つの流れで分析結果を確認できます。</p>
+                </div>
 
                 <div class="steps">
                     <div class="step">
@@ -323,12 +336,12 @@
                                     Windows版 Beta v1.3.0 をダウンロード
                                 </a>
 
-                                <p style="margin-top: 12px;">
+                                <p class="install-link">
                                     <a href="install.html">インストール方法を見る →</a>
                                 </p>
 
                                 <p class="store-status">
-                                    ✅ Microsoft Store 認定取得済み
+                                    <span class="status-dot" aria-hidden="true"></span>Microsoft Store 認定取得済み
                                 </p>
 
                                 <p class="license-note">
