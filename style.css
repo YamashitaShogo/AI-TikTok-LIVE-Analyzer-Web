@@ -2336,3 +2336,18 @@ nav a:hover {
 .contact-submit:hover {
     background: #D2FF91;
 }
+/* ===== JAPANESE BRAND READING ===== */
+
+.hero-product-name {
+    margin-bottom: 5px;
+}
+
+.hero-product-reading {
+    display: block;
+    margin-bottom: 16px;
+    color: #718188;
+    font-family: "Yu Gothic UI", sans-serif;
+    font-size: clamp(11px, 1.3vw, 14px);
+    font-weight: 500;
+    letter-spacing: 0.12em;
+}
