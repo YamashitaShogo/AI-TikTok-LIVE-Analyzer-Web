@@ -6,18 +6,18 @@
     <title>Livemetry Pulse（ライブメトリーパルス）| AIライブ配信分析ツール</title>
     <meta
         name="description"
-        content="Livemetry Pulse（ライブメトリーパルス、通称：ライブメトリー）は、OBS Studioと連携してライブ配信映像をAIで分析し、スコアや改善ポイントを確認できるWindows向け配信分析ツールです。"
+        content="Livemetry Pulse（ライブメトリーパルス、通称：ライブメトリー）は、TikTok Viewerで配信映像を取得してAIで分析し、スコアや改善ポイントを確認できるWindows向け配信分析ツールです。"
     >
     <link rel="canonical" href="https://livemetry.jp/">
     <meta property="og:site_name" content="Livemetry Pulse">
     <meta property="og:title" content="Livemetry Pulse（ライブメトリーパルス）| AIライブ配信分析ツール">
-    <meta property="og:description" content="OBSと連携してライブ配信映像をAIで分析し、スコアや改善ポイントを確認できる配信分析ツールです。">
+    <meta property="og:description" content="TikTok Viewerで配信映像を取得してAIで分析し、スコアや改善ポイントを確認できる配信分析ツールです。">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://livemetry.jp/">
     <meta property="og:image" content="https://livemetry.jp/assets/images/app-preview.png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Livemetry Pulse（ライブメトリーパルス）| AIライブ配信分析ツール">
-    <meta name="twitter:description" content="OBSと連携してライブ配信映像をAIで分析し、スコアや改善ポイントを確認できる配信分析ツールです。">
+    <meta name="twitter:description" content="TikTok Viewerで配信映像を取得してAIで分析し、スコアや改善ポイントを確認できる配信分析ツールです。">
     <meta name="twitter:image" content="https://livemetry.jp/assets/images/app-preview.png">
     <script type="application/ld+json">
     {
@@ -32,16 +32,16 @@
       "url": "https://livemetry.jp/",
       "sameAs": "https://github.com/YamashitaShogo/AI-TikTok-LIVE-Analyzer",
       "image": "https://livemetry.jp/assets/images/app-preview.png",
-      "description": "OBSと連携してライブ配信映像をAIで分析し、スコアや改善ポイントを確認できる配信分析ツールです。",
+      "description": "TikTok Viewerで配信映像を取得してAIで分析し、スコアや改善ポイントを確認できる配信分析ツールです。",
       "operatingSystem": "Windows 10, Windows 11",
       "applicationCategory": "MultimediaApplication",
       "applicationSubCategory": "AIライブ配信分析ツール",
-      "softwareRequirements": "OBS Studio（Replay BufferおよびOBS WebSocket）",
+      "softwareRequirements": "Windows 10 / 11、インターネット接続",
       "installUrl": "https://livemetry.jp/install.html",
       "inLanguage": "ja-JP",
       "featureList": [
-        "OBS Studioとの連携",
-        "Replay Bufferからの配信映像取得",
+        "TikTok Viewerによる配信取得",
+        "配信画面・コメント・音声の取得",
         "AIによるライブ配信映像分析",
         "配信スコアと改善ポイントの表示"
       ],
@@ -109,7 +109,7 @@
 
                     <p class="hero-text">
                         Livemetry Pulse（通称：ライブメトリー）は、
-                        OBS Studioと連携して直前の配信映像を取得。
+                        TikTok Viewerから配信映像・コメント・音声を取得。
                         複数フレームを時系列でAIが分析し、
                         構図・明るさ・視認性などを採点します。
                     </p>
@@ -154,7 +154,7 @@
                     <p class="section-label">AI ANALYSIS</p>
                     <h2>実際の分析イメージ</h2>
                     <p>
-                        Replay Bufferから取得した複数フレームをAIが時系列で確認し、
+                        TikTok Viewerから取得した配信映像・コメント・音声をAIが分析し、
                         配信画面をスコア化して改善ポイントを提案します。
                     </p>
                 </div>
@@ -250,11 +250,11 @@
                 <div class="cards">
 
                     <article class="card">
-                        <h3><span class="feature-code">01 / REPLAY</span>Replay Buffer分析</h3>
+                        <h3><span class="feature-code">01 / VIEWER</span>TikTok Viewer分析</h3>
 
                         <p>
-                            OBSのReplay Bufferから直前の配信映像を自動取得。
-                            5秒ごとにフレームを抽出して分析します。
+                            TikTok Viewerから配信映像を自動取得。
+                            コメントと直近の音声も合わせてAI分析します。
                         </p>
                     </article>
 
@@ -284,14 +284,14 @@
             <div class="container">
                 <div class="how-intro">
                     <p class="section-label">HOW IT WORKS</p>
-                    <h2>OBS接続から、改善確認まで。</h2>
+                    <h2>Viewer起動から、改善確認まで。</h2>
                     <p>配信中の操作を止めず、5つの流れで分析結果を確認できます。</p>
                 </div>
 
                 <div class="steps">
                     <div class="step">
                         <span>1</span>
-                        <p>OBSへ接続</p>
+                        <p>TikTok Viewerを開く</p>
                     </div>
 
                     <div class="step">
@@ -344,18 +344,18 @@
                                 </div>
 
                                 <ul>
-                                    <li>OBS連携</li>
-                                    <li>Replay Buffer分析</li>
-                                    <li>5秒間隔の時系列分析</li>
+                                    <li>TikTok Viewerで配信取得</li>
+                                    <li>配信画面・コメント・音声分析</li>
+                                    <li>自動AI分析</li>
                                     <li>AIスコア・改善提案</li>
                                     <li>分析履歴</li>
                                 </ul>
 
                                 <a
                                     class="button primary plan-button"
-                                    href="https://github.com/YamashitaShogo/AI-TikTok-LIVE-Analyzer-Releases/releases/download/v1.3.0/LivemetryPulse-Setup-v1.3.0.exe"
+                                    href="https://github.com/YamashitaShogo/AI-TikTok-LIVE-Analyzer/releases/download/v1.5.0/LivemetryPulse-Setup-v1.5.0.exe"
                                 >
-                                    Windows版 Beta v1.3.0 をダウンロード
+                                    Windows版 Beta v1.5.0 をダウンロード
                                 </a>
 
                                 <p class="install-link">
@@ -372,14 +372,14 @@
 
                                 <div class="download-info">
                                     <p class="download-meta">
-                                        Windows 10 / 11対応 ・ Beta v1.3.0
+                                        Windows 10 / 11対応 ・ Beta v1.5.0
                                     </p>
 
                                     <details class="download-details">
                                         <summary>ファイル情報を確認</summary>
 
-                                        <p><strong>必要環境:</strong> OBS Studio / インターネット接続</p>
-                                        <p><strong>更新日:</strong> 2026/08/24</p>
+                                        <p><strong>必要環境:</strong> Windows 10 / 11・インターネット接続</p>
+                                        <p><strong>更新日:</strong> 2026/10/02</p>
                                     </details>
                                 </div>
                             </article>
@@ -430,12 +430,12 @@
 
                             <details class="faq-item">
                                 <summary>
-                                    OBSは必要ですか？
+                                    OBS Studioは必要ですか？
                                 </summary>
 
                                 <p>
-                                    はい。現在のベータ版ではOBS Studioと連携し、
-                                    Replay Bufferから直前の配信映像を取得して分析します。
+                                    いいえ。v1.5.0ではOBS Studioは不要です。TikTok Viewerから
+                                    配信映像・コメント・音声を取得して分析します。
                                 </p>
                             </details>
 
@@ -479,9 +479,9 @@
                                 </summary>
 
                                 <p>
-                                    OBSのReplay Bufferから動画を取得し、
-                                    必要なフレームを端末上で抽出します。
-                                    AI分析時には分析に必要な画像データを
+                                    TikTok Viewerから配信画面を取得し、
+                                    分析に必要な画像を端末上で保存します。
+                                    AI分析時には分析に必要な画像データと音声データを
                                     AI分析サーバーへ送信します。
                                 </p>
                             </details>
@@ -492,7 +492,7 @@
                                 </summary>
 
                                 <p>
-                                    現在の分析機能はOBSの映像を利用するため、
+                                    現在の分析機能はTikTok Viewer上の配信を利用するため、
                                     Livemetry Pulseへ
                                     TikTokアカウントを直接連携する必要はありません。
                                 </p>
@@ -561,7 +561,7 @@
             </p>
 
             <p>
-                TikTokおよびOBS Studioとは
+                TikTokとは
                 独立したサービスです。
             </p>
         </div>
