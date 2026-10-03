@@ -2358,3 +2358,4 @@ nav a:hover {
 .logo .brand-logo { width: 30px !important; height: 30px !important; max-width: 30px !important; max-height: 30px !important; object-fit: contain !important; display: block !important; }
 .footer-brand .footer-logo { width: 26px !important; height: 26px !important; max-width: 26px !important; max-height: 26px !important; object-fit: contain !important; display: block !important; }
 .footer-brand h3::before { content: none !important; display: none !important; }
+.footer-brand .footer-logo { width: 28px !important; height: 28px !important; max-width: 28px !important; max-height: 28px !important; }
