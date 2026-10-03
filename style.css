@@ -2354,3 +2354,6 @@ nav a:hover {
 .brand-logo { width: 30px; height: 30px; object-fit: contain; flex-shrink: 0; }
 .footer-brand-title { display: flex; align-items: center; gap: 8px; }
 .footer-logo { width: 26px; height: 26px; }
+
+.logo .brand-logo { width: 30px !important; height: 30px !important; max-width: 30px !important; max-height: 30px !important; object-fit: contain !important; display: block !important; }
+.footer-brand .footer-logo { width: 26px !important; height: 26px !important; max-width: 26px !important; max-height: 26px !important; object-fit: contain !important; display: block !important; }
