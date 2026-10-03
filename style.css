@@ -2351,3 +2351,6 @@ nav a:hover {
     font-weight: 500;
     letter-spacing: 0.12em;
 }
+.brand-logo { width: 30px; height: 30px; object-fit: contain; flex-shrink: 0; }
+.footer-brand-title { display: flex; align-items: center; gap: 8px; }
+.footer-logo { width: 26px; height: 26px; }
