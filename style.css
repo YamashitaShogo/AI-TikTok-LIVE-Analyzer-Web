@@ -2474,3 +2474,29 @@ nav a:hover {
 .chat-message.bot {
     white-space: pre-wrap;
 }
+
+.chat-toggle {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    width: 92px;
+    height: 92px;
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    z-index: 1000;
+    box-shadow: none;
+}
+
+.chat-toggle img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.chat-toggle:hover {
+    transform: scale(1.04);
+    transition: transform 0.2s ease;
+}
