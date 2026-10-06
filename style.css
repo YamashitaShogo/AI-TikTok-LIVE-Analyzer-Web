@@ -2526,3 +2526,40 @@ nav a:hover {
     align-self: flex-end !important;
     max-width: 82% !important;
 }
+
+/* Chat message layout final fix */
+#chat-messages {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+    gap: 12px !important;
+}
+
+#chat-messages .chat-message {
+    display: block !important;
+    flex: 0 0 auto !important;
+    width: auto !important;
+    min-width: 0 !important;
+    height: auto !important;
+    min-height: 0 !important;
+    max-width: 78% !important;
+    margin: 0 !important;
+    padding: 12px 14px !important;
+    line-height: 1.55 !important;
+    text-align: left !important;
+    white-space: pre-wrap !important;
+}
+
+#chat-messages .chat-message.bot {
+    align-self: flex-start !important;
+    background: #ffffff !important;
+    color: #111827 !important;
+}
+
+#chat-messages .chat-message.user {
+    align-self: flex-end !important;
+    margin-left: auto !important;
+    background: #7c3aed !important;
+    color: #ffffff !important;
+}
