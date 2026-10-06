@@ -2500,3 +2500,29 @@ nav a:hover {
     transform: scale(1.04);
     transition: transform 0.2s ease;
 }
+
+.chat-messages {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 12px !important;
+}
+
+.chat-message {
+    width: fit-content !important;
+    height: auto !important;
+    min-height: 0 !important;
+    padding: 12px 14px !important;
+    line-height: 1.6 !important;
+    text-align: left !important;
+}
+
+.chat-message.bot {
+    align-self: flex-start !important;
+    max-width: 82% !important;
+}
+
+.chat-message.user {
+    align-self: flex-end !important;
+    max-width: 82% !important;
+}
