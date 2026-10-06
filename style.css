@@ -2563,3 +2563,18 @@ nav a:hover {
     background: #7c3aed !important;
     color: #ffffff !important;
 }
+
+/* Chat greeting final adjustment */
+#chat-messages > .chat-message.bot {
+    width: fit-content !important;
+    max-width: 72% !important;
+    padding: 10px 14px !important;
+    text-align: left !important;
+    align-self: flex-start !important;
+}
+
+#chat-messages > .chat-message.bot:first-child {
+    width: fit-content !important;
+    max-width: 72% !important;
+    text-align: left !important;
+}
