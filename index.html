@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
@@ -135,7 +135,7 @@
                         </div>
 
                         <img
-                            src="assets/images/app-preview.png?v=20261003"
+                            src="assets/images/app-preview.png?v=20261004"
                             alt="Livemetry Pulseの分析画面"
                         >
 
@@ -566,5 +566,28 @@
     </footer>
 
     <script src="script.js"></script>
+
+<div class="chat-widget">
+    <button id="chat-toggle" class="chat-toggle" aria-label="チャットを開く">💬</button>
+
+    <div id="chat-panel" class="chat-panel">
+        <div class="chat-header">
+            <strong>Livemetry AI</strong>
+            <button id="chat-close" class="chat-close">×</button>
+        </div>
+
+        <div id="chat-messages" class="chat-messages">
+            <div class="chat-message bot">
+                こんにちは。Livemetry Pulseについて質問できます。
+            </div>
+        </div>
+
+        <div class="chat-input-area">
+            <input id="chat-input" type="text" placeholder="質問を入力…">
+            <button id="chat-send">送信</button>
+        </div>
+    </div>
+</div>
 </body>
 </html>
+

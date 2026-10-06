@@ -107,3 +107,44 @@ if (contactForm) {
         }
     });
 }
+const chatToggle = document.getElementById("chat-toggle");
+const chatPanel = document.getElementById("chat-panel");
+const chatClose = document.getElementById("chat-close");
+const chatSend = document.getElementById("chat-send");
+const chatInput = document.getElementById("chat-input");
+const chatMessages = document.getElementById("chat-messages");
+
+chatToggle?.addEventListener("click", () => {
+    chatPanel.classList.add("open");
+});
+
+chatClose?.addEventListener("click", () => {
+    chatPanel.classList.remove("open");
+});
+
+function sendChatMessage() {
+    const text = chatInput.value.trim();
+    if (!text) return;
+
+    const userMessage = document.createElement("div");
+    userMessage.className = "chat-message user";
+    userMessage.textContent = text;
+    chatMessages.appendChild(userMessage);
+
+    chatInput.value = "";
+
+    const botMessage = document.createElement("div");
+    botMessage.className = "chat-message bot";
+    botMessage.textContent = "現在はデモ版です。AI接続は次のステップで追加します。";
+    chatMessages.appendChild(botMessage);
+
+    chatMessages.scrollTop = chatMessages.scrollHeight;
+}
+
+chatSend?.addEventListener("click", sendChatMessage);
+
+chatInput?.addEventListener("keydown", (event) => {
+    if (event.key === "Enter") {
+        sendChatMessage();
+    }
+});
