@@ -2460,3 +2460,13 @@ nav a:hover {
     color: white;
     cursor: pointer;
 }
+
+.chat-message.bot {
+    background: #ffffff !important;
+    color: #111827 !important;
+    border: 1px solid #e5e7eb !important;
+}
+
+.chat-message.user {
+    color: #ffffff !important;
+}
