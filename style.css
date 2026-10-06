@@ -2470,3 +2470,7 @@ nav a:hover {
 .chat-message.user {
     color: #ffffff !important;
 }
+
+.chat-message.bot {
+    white-space: pre-wrap;
+}
