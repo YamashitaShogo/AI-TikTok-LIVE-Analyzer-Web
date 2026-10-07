@@ -2632,3 +2632,25 @@ nav a:hover {
     font-size: 11.5px !important;
     white-space: nowrap !important;
 }
+
+.chat-contact-guide {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 10px !important;
+}
+
+.chat-contact-button {
+    display: inline-block;
+    width: fit-content;
+    padding: 8px 14px;
+    background: #7c3aed;
+    color: #ffffff !important;
+    border-radius: 999px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.chat-contact-button:hover {
+    opacity: 0.9;
+}

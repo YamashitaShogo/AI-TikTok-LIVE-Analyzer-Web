@@ -92,3 +92,34 @@ document.querySelectorAll(".chat-quick-questions button").forEach((button) => {
         sendButton.click();
     });
 });
+
+let contactGuideShown = false;
+
+const chatMessageArea = document.getElementById("chat-messages");
+
+const contactObserver = new MutationObserver(() => {
+    if (contactGuideShown) return;
+
+    const userMessages = chatMessageArea.querySelectorAll(".chat-message.user");
+
+    if (userMessages.length >= 4) {
+        contactGuideShown = true;
+
+        const guide = document.createElement("div");
+        guide.className = "chat-message bot chat-contact-guide";
+
+        guide.innerHTML = `
+            <div>解決しない場合は、お問い合わせフォームからご連絡ください。</div>
+            <a href="#contact" class="chat-contact-button">
+                お問い合わせはこちら
+            </a>
+        `;
+
+        chatMessageArea.appendChild(guide);
+        chatMessageArea.scrollTop = chatMessageArea.scrollHeight;
+    }
+});
+
+contactObserver.observe(chatMessageArea, {
+    childList: true
+});
