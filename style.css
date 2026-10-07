@@ -2578,3 +2578,7 @@ nav a:hover {
     max-width: 72% !important;
     text-align: left !important;
 }
+
+.chat-messages {
+    align-items: flex-start !important;
+}
