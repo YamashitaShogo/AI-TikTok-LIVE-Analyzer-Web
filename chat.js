@@ -81,3 +81,14 @@
 });
 
 
+
+document.querySelectorAll(".chat-quick-questions button").forEach((button) => {
+    button.addEventListener("click", () => {
+        const question = button.dataset.question;
+        const input = document.getElementById("chat-input");
+        const sendButton = document.getElementById("chat-send");
+
+        input.value = question;
+        sendButton.click();
+    });
+});

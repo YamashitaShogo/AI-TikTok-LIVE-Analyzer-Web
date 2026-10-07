@@ -2596,3 +2596,28 @@ nav a:hover {
     line-height: 1.6 !important;
     white-space: normal !important;
 }
+
+.chat-quick-questions {
+    display: flex;
+    gap: 6px;
+    padding: 8px 12px;
+    overflow-x: auto;
+    background: #f8fafc;
+    border-top: 1px solid #e5e7eb;
+}
+
+.chat-quick-questions button {
+    flex: 0 0 auto;
+    border: 1px solid #7c3aed;
+    background: #ffffff;
+    color: #7c3aed;
+    border-radius: 999px;
+    padding: 6px 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.chat-quick-questions button:hover {
+    background: #7c3aed;
+    color: #ffffff;
+}
