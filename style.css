@@ -2582,3 +2582,17 @@ nav a:hover {
 .chat-messages {
     align-items: flex-start !important;
 }
+
+#chat-greeting {
+    display: block !important;
+    width: 210px !important;
+    max-width: 210px !important;
+    height: auto !important;
+    min-height: 0 !important;
+    align-self: flex-start !important;
+    margin: 0 !important;
+    padding: 10px 14px !important;
+    text-align: left !important;
+    line-height: 1.6 !important;
+    white-space: normal !important;
+}
